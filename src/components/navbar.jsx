@@ -7,7 +7,7 @@ import { useState } from 'react';
     const [isDropDownOpenProducts, setIsDropDownOpenProducts] = useState(false)
     return (
     <div className="fixed top-0">
-    <div className="flex justify-between items-center w-[1280px] mx-auto py-[20px] px-[10px]  ">
+    <div className="flex justify-between items-center max-w-[1280px] mx-auto py-[20px] px-[10px]  ">
         <div className="flex gap-[4px] items-center">
             <img src="../src/assets/logo-removebg-preview.png" className="w-[22px] h-[20px] mb-[4px]" alt="" />
             <p className="text-white font-medium text-[16px]">Prestige</p>

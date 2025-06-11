@@ -6,8 +6,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
  const Hero = () => {
 
 
-    return (<><div className=" bg-no-repeat bg-cover w-screen bg-center h-[333px] flex flex-col items-center mt-[60px]"
-            style={{ backgroundImage: `url(${heroImg})` }}>
+    return (<><div className=" bg-no-repeat bg-cover w-[1520px] bg-center flex flex-col items-center mb-[0px]"
+            style={{ backgroundImage: `url(${heroImg})`,marginTop:"200px", height:"440px"}}>
 
         {/* Ai button */}
     <div className="text-white w-[230px] text-[14px]">
@@ -18,8 +18,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
     </div>
     {/* title */}
-    <div className="text-[72px]/18 text-white font-semibold text-center max-w-[800px] mt-6" >
-        <h5 className="">The best way to build your startup.</h5>
+    <div className="text-[72px]/18 text-white font-semibold text-center max-w-[800px] mt-6 " >
+        <h5 className="tracking-wider">The best way to build your startup.</h5>
     </div>
     {/* description */}
     <div className="text-gray-500 text-xl font-medium text-center max-w-[800px] mt-5">

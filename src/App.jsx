@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Dashboard from './components/dashboard'
+import Framer from './components/framer'
+import Feature1 from './components/feature1'
 
 function App() {
    
@@ -14,6 +16,8 @@ function App() {
        <Navbar />
        <Hero />
        <Dashboard  />
+       <Framer />
+       <Feature1 />
     </>
   )
 }

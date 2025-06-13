@@ -2,7 +2,7 @@ import DashboardPic from "../assets/dashbard-img.webp"
 import AnalyticPic from '../assets/ai-line.webp'
 const Feature2 = () => {
   return (
-    <div className="p-6 pb-0 mb-[300px] bg-[#101010] text-white">
+    <div className="p-6 py-0 mb-[284px] bg-[#101010] text-white">
       {/* Text content */}
       <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
@@ -91,7 +91,8 @@ const Feature2 = () => {
       Make informed decisions backed by data through our analytics tools.
     </p>
   </div>
-        </div><div className="bg-gray-900 p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        </div>
+        <div className="bg-gray-900 p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -116,7 +117,7 @@ const Feature2 = () => {
       Make informed decisions backed by data through our analytics tools.
     </p>
   </div>
-        </div><div className="bg-gray-900 p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        </div><div className="bg-gray-900 p-[40px] h-[477px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -137,7 +138,7 @@ const Feature2 = () => {
   {/* Text below image */}
   <div className="mt-[20px]">
     <h4 className="text-[18px] font-semibold">Simple analytics</h4>
-    <p className="text-gray-400">
+    <p className="text-gray-400 pb-0">
       Make informed decisions backed by data through our analytics tools.
     </p>
   </div>

@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './components/navbar'
 import Hero from './components/hero'
@@ -9,6 +7,7 @@ import Framer from './components/framer'
 import Feature1 from './components/feature1'
 import Feature2 from './components/feature2'
 import Feature3 from './components/feature3'
+import Feature4 from './components/feature4'
 
 function App() {
    
@@ -22,6 +21,7 @@ function App() {
        <Feature1 />
        <Feature2 />
        <Feature3 />
+       <Feature4 />
     </>
   )
 }

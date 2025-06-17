@@ -19,10 +19,9 @@ const Feature2 = () => {
           </svg>
           <span>Feature</span>
         </div>
-        <h3 className="text-5xl font-bold mb-4 tracking-wider ">Product features</h3>
-        <p className="text-gray-400 text-[18px]">
-          Discover an extensive suite of robust tools and functionalities thoughtfully designed to enhance your interactions on our platform.
-        </p>
+        <h3 className="text-5xl font-bold mb-4 tracking-wider ">And many other features</h3>
+        <p className="text-gray-400 text-[18px] w-[750px]">
+        We take immense pride in presenting you with a comprehensive array of powerful tools and capabilities that are designed to elevate your experience and help you achieve more.        </p>
       </div>
 
       {/* Card container */}

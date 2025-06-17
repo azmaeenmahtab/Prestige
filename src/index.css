@@ -11,6 +11,16 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+@keyframes fillBar {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 @keyframes bounceOnce {
   0% {
     transform: translateY(50%);

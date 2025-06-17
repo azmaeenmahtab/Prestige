@@ -1,10 +1,7 @@
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import aipic from "../assets/ai-img.webp";
 import analytics from "../assets/sa-img.webp";
-import collab from "../assets/easy-collaboration-img.webp";
-import automation from "../assets/smart-automation-img.webp";
 import gridpic1 from "../assets/easy-collaboration-1.webp";
 import gridpic2 from "../assets/easy-collaboration-2.webp";
 import gridpic3 from "../assets/easy-collaboration-3.webp";
@@ -35,7 +32,7 @@ const Feature4 = ( ) => {
         <h3 className="text-5xl font-bold mb-4 tracking-wider text-white">And so much more</h3>
         <p className="text-gray-400 text-[18px] w-[750px]">
         All the features you need to build a better experience, explore the possibilities, and unlock the full potential of what we have to offer.</p>
-      </div>
+        </div>
 
 
 

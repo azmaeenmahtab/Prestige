@@ -11,6 +11,7 @@ import Feature4 from './components/feature4'
 import SpeedFeature from './components/speedFeature'
 import Pricing from './components/pricing'
 import Review from './components/review'
+import AccordionUsage from './components/accordion'
 
 function App() {
    
@@ -28,6 +29,7 @@ function App() {
        <SpeedFeature />
        <Pricing />
        <Review />
+       <AccordionUsage />
     </>
   )
 }

@@ -110,8 +110,6 @@ const Pricing = () => {
                 <p className="text-teal-500 text-center mt-2.5">Save 12% with annual billing</p>)}
                 </div>
 
-
-
                 <ul className="my-[40px]">
                     <li className="flex items-center gap-3">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg>
@@ -136,7 +134,7 @@ const Pricing = () => {
                 </ul>
 
                 <div className="flex justify-center items-center">
-                  <button className="mb-[40px] text-black bg-white w-full rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all">
+                  <button className="mb-[40px] text-black bg-white w-full rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-white/80 transition-all">
                     Get started
                   </button>
                 </div>

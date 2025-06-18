@@ -10,6 +10,7 @@ import Feature3 from './components/feature3'
 import Feature4 from './components/feature4'
 import SpeedFeature from './components/speedFeature'
 import Pricing from './components/pricing'
+import Review from './components/review'
 
 function App() {
    
@@ -26,6 +27,7 @@ function App() {
        <Feature4 />
        <SpeedFeature />
        <Pricing />
+       <Review />
     </>
   )
 }

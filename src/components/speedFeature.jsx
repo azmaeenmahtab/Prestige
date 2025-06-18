@@ -47,7 +47,7 @@ const SpeedFeature = () => {
   };
 
   return (
-    <div>
+    <div className="mb-[300px]">
       {/* text header top part */}
       <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[100px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
@@ -73,8 +73,8 @@ const SpeedFeature = () => {
         </p>
       </div>
 
-      {/* animation partmain container */}
-      <div className="max-w-[1100px] h-[499px] relative mx-auto flex justify-between items-center">
+      {/* animation part main container */}
+      <div className="max-w-[1100px] min-h-[499px] relative mx-auto flex justify-between items-center">
         {/* text container */}
         <div className="max-w-[410px]">
           {items.map((item, index) => (
@@ -119,7 +119,7 @@ const SpeedFeature = () => {
         </div>
 
         {/* animating img container */}
-        <div className="max-w-[600px]  bg-gray-900 rounded-3xl flex items-center justify-center">
+        <div className="max-w-[600px] overflow-hidden  bg-gray-900 rounded-3xl flex items-center justify-center">
           <img
             key={activeIndex}
             src={items[activeIndex].image}

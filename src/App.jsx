@@ -9,6 +9,7 @@ import Feature2 from './components/feature2'
 import Feature3 from './components/feature3'
 import Feature4 from './components/feature4'
 import SpeedFeature from './components/speedFeature'
+import Pricing from './components/pricing'
 
 function App() {
    
@@ -24,6 +25,7 @@ function App() {
        <Feature3 />
        <Feature4 />
        <SpeedFeature />
+       <Pricing />
     </>
   )
 }

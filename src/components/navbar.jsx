@@ -50,7 +50,7 @@ const Navbar = () => {
               onMouseEnter={() => setIsDropDownOpenProducts(true)}
               onMouseLeave={() => setIsDropDownOpenProducts(false)}
             >
-              Products
+              Product
             </a>
             {isDropDownOpenProducts && (
               <div className="absolute w-[370px] bg-[#1a202c] p-6 py-5 rounded-[8px] top-[30px]">
@@ -137,7 +137,7 @@ const Navbar = () => {
             Blog
           </a>
           <a href="#" className="text-[#718096] font-medium text-[16px] hover:text-white">
-            Pricings
+            Pricing
           </a>
         </div>
 

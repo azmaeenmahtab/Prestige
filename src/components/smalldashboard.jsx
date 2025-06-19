@@ -29,7 +29,7 @@ const SmallDashboard = () => {
 />
 
 
-            <button className="text-black bg-white py-4 px-8 rounded-3xl border cursor-pointer">
+            <button className="text-black bg-white py-4 px-8 rounded-3xl border cursor-pointer hover:bg-white/80">
               Join waitlist
             </button>
           </div>

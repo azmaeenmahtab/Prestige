@@ -54,10 +54,10 @@ const Pricing = () => {
         {/* pricing plan card container */}
         <div className="max-w-[1215px] mx-auto flex gap-8 px-5">
             {/* first card */}
-            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-gray-900 border border-[#2D3748]/80 rounded-3xl">
+            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-[#171923] border border-[#2D3748]/80 rounded-3xl">
                 <h3 className="text-3xl text-center">Starter</h3>
 
-                <p className="text-gray-500 mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>
+                <p className="text-[#718096] mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>
 
                 <div className="py-[70px] border-b border-gray-400/20">
                 <h3 className="text-4xl font-semibold  text-center">${active === "monthly" ? "9" : "90"}<span className="text-gray-500 text-[16px]">/month</span></h3>
@@ -97,10 +97,10 @@ const Pricing = () => {
                 </div>
             </div>
             {/* second card */}
-            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-gray-900 border border-[#2D3748]/80 rounded-3xl">
+            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-[#171923] border border-[#2D3748]/80 rounded-3xl">
                 <h3 className="text-3xl text-center">Starter</h3>
 
-                <p className="text-gray-500 mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>
+                <p className="text-[#718096] mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>
 
                 <div className="py-[70px] border-b border-gray-400/20">
                 <h3 className="text-4xl font-semibold  text-center">${active === "monthly" ? "19" : "149"}<span className="text-gray-500 text-[16px]">/month</span></h3>
@@ -140,10 +140,10 @@ const Pricing = () => {
                 </div>
             </div>
             {/* third card */}
-            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-gray-900 border border-[#2D3748]/80 rounded-3xl">
+            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-[#171923] border border-[#2D3748]/80 rounded-3xl">
                 <h3 className="text-3xl text-center">Starter</h3>
 
-                <p className="text-gray-500 mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>
+                <p className="text-[#718096] mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>
 
                 <h3 className="text-4xl font-semibold py-[70px] border-b border-gray-400/20 text-center">Custom</h3>
 

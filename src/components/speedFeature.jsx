@@ -119,7 +119,7 @@ const SpeedFeature = () => {
         </div>
 
         {/* animating img container */}
-        <div className="max-w-[600px] overflow-hidden  bg-gray-900 rounded-3xl flex items-center justify-center">
+        <div className="max-w-[600px] overflow-hidden  bg-[#171923] rounded-3xl flex items-center justify-center">
           <img
             key={activeIndex}
             src={items[activeIndex].image}

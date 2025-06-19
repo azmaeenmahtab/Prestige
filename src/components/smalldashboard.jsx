@@ -8,7 +8,7 @@ const SmallDashboard = () => {
   return (
     <>
       <div
-        className="bg-no-repeat bg-cover max-w-[1200px] mx-auto bg-center mb-[200px] flex items-center rounded-3xl justify-between relative overflow-hidden"
+        className="bg-no-repeat bg-cover max-w-[1200px] mx-auto bg-center mb-[250px] flex items-center rounded-3xl justify-between relative overflow-hidden"
         style={{ backgroundImage: `url(${smheroImg})`, height: "450px", backgroundColor:'' }}
       >
         {/* text part left */}

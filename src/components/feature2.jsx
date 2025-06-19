@@ -27,7 +27,7 @@ const Feature2 = () => {
       {/* Card container */}
       <div className="grid grid-cols-3 gap-5 max-w-[1280px] px-[30px] mx-auto space-y-4" >
         {/* col span 2 card */}
-        <div className="bg-gray-900 p-[40px] border border-[#2D3748] rounded-3xl max-w-[790px] col-span-2">
+        <div className="bg-[#171923] p-[40px] border border-[#2D3748] rounded-3xl max-w-[790px] col-span-2">
             <div className="bg-gray-800 p-[40px] rounded-[24px] pb-0 overflow-hidden h-[300px]">
                 <img src={DashboardPic} alt="" />
             </div>
@@ -39,7 +39,7 @@ const Feature2 = () => {
 
         </div>
         {/* small card */}
-        <div className="bg-gray-900 p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -65,7 +65,7 @@ const Feature2 = () => {
     </p>
   </div>
         </div>
-        <div className="bg-gray-900 p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -91,7 +91,7 @@ const Feature2 = () => {
     </p>
   </div>
         </div>
-        <div className="bg-gray-900 p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -116,7 +116,7 @@ const Feature2 = () => {
       Make informed decisions backed by data through our analytics tools.
     </p>
   </div>
-        </div><div className="bg-gray-900 p-[40px] h-[477px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        </div><div className="bg-[#171923] p-[40px] h-[477px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">

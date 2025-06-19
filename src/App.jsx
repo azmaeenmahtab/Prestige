@@ -13,6 +13,7 @@ import Pricing from './components/pricing'
 import Review from './components/review'
 import AccordionUsage from './components/accordion'
 import SmallDashboard from './components/smalldashboard'
+import Footer from './components/footer'
 
 function App() {
    
@@ -32,6 +33,7 @@ function App() {
        <Review />
        <AccordionUsage />
        <SmallDashboard />
+       <Footer />
     </>
   )
 }

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.937);
+  font-family: "DM Sans", sans-serif;
+}
+
+@keyframes fillBar {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bounceOnce {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-once {
+  animation: bounceOnce 1.5s cubic-bezier(0.50, 0.46, 0.45, 0.94) forwards;
+}

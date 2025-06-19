@@ -12,6 +12,7 @@ import SpeedFeature from './components/speedFeature'
 import Pricing from './components/pricing'
 import Review from './components/review'
 import AccordionUsage from './components/accordion'
+import SmallDashboard from './components/smalldashboard'
 
 function App() {
    
@@ -30,6 +31,7 @@ function App() {
        <Pricing />
        <Review />
        <AccordionUsage />
+       <SmallDashboard />
     </>
   )
 }

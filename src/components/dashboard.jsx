@@ -4,7 +4,7 @@ import person2 from '../assets/1500684.jpeg'
 import person3 from '../assets/1_tv9pIQPhwumDnYBfCoapYg.jpg'
 import person4 from '../assets/100200.jpeg'
 const Dashboard = () => {
-    return <><div className="flex items-center justify-center relative">      
+    return <><div className="flex items-center justify-center relative px-5">      
     <img src={DashboardPic} alt="Dashboard" className="w-[1210px] h-auto" />
     <div className="flex absolute top-[40px]">
   <img

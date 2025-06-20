@@ -8,15 +8,15 @@ const SmallDashboard = () => {
   return (
     <>
       <div
-        className="bg-no-repeat bg-cover max-w-[1200px] mx-auto bg-center mb-[250px] flex items-center rounded-3xl justify-between relative overflow-hidden"
+        className="bg-no-repeat bg-cover max-w-[1200px] mx-auto bg-center mb-[250px] flex items-center rounded-3xl justify-between relative  smDashboard1150 "
         style={{ backgroundImage: `url(${smheroImg})`, height: "450px", backgroundColor:'' }}
       >
         {/* text part left */}
-        <div className="max-w-[650px] pl-[100px] z-10">
+        <div className="max-w-[650px] pl-[100px] z-10 child WidthIncrease smDashTextDiv">
           <h3 className="text-5xl text-white font-semibold tracking-wider mb-4">
             Start building today.
           </h3>
-          <p className="text-[18px] text-[#A0AEC0] mb-5 max-w-[500px]">
+          <p className="text-[18px] text-[#A0AEC0] mb-5 max-w-[500px] WidthIncrease">
             Our app eliminates the need for complex spreadsheets, endless email
             threads, empowering businesses to achieve greater efficiency.
           </p>
@@ -38,10 +38,12 @@ const SmallDashboard = () => {
         {/* img part right */}
         <img
           src={smDash}
-          className="absolute bottom-0 right-[0px] max-w-[500px]"
+          className="absolute bottom-0 right-[0px] max-w-[500px] smDashboardImg1150"
           alt="dashboard"
         />
+         <div className="smDashboardBgExpand1150"></div>
       </div>
+     
     </>
   );
 };

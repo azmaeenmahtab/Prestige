@@ -12,7 +12,7 @@ const Framer = () => {
 
       {/* Fading container */}
       <div
-        className="relative w-[800px] mx-auto overflow-hidden"
+        className="relative max-w-[800px] mx-auto overflow-hidden"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)",

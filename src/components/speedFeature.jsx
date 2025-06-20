@@ -76,7 +76,7 @@ const SpeedFeature = () => {
       {/* animation part main container */}
       <div className="max-w-[1100px] min-h-[499px] relative mx-auto flex justify-between items-center">
         {/* text container */}
-        <div className="max-w-[410px]">
+        <div className="max-w-[410px] pl-3">
           {items.map((item, index) => (
             <div
               key={index}

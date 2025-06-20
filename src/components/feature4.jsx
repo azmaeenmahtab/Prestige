@@ -242,7 +242,7 @@ const Feature4 = ( ) => {
           
 
         {/* third - collaboration part */}
-        <div className="max-w-[1200px] mx-auto flex justify-between gap-8 mb-12">
+        <div className="max-w-[1200px] mx-auto flex justify-between gap-8 mb-12 px-5">
                 <div className="text-left max-w-[550px]  pt-5">
                   <div className="flex items-center gap-4 text-orange-300">
                     <div className="flex items-center justify-center w-12 h-12 border border-orange-300/60 rounded-2xl bg-yellow-900">
@@ -264,7 +264,7 @@ const Feature4 = ( ) => {
                 
         </div>
         {/* grid */}
-        <div className="grid grid-cols-3 max-w-[1200px] mx-auto mb-[280px] gap-5">
+        <div className="grid grid-cols-3 max-w-[1200px] mx-auto mb-[280px] gap-5 px-2">
             <div><img src={gridpic1} alt="" className="rounded-3xl" /></div>
             <div><img src={gridpic2} alt="" className="rounded-3xl" /></div>
             <div><img src={gridpic3} alt="" className="rounded-3xl" /></div>

@@ -41,7 +41,7 @@ const Feature2 = () => {
         {/* small card */}
         <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
-  <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
+  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
   {/* Default value */}
   <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
@@ -67,7 +67,7 @@ const Feature2 = () => {
         </div>
         <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
-  <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
+  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
   {/* Default value */}
   <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
@@ -93,7 +93,7 @@ const Feature2 = () => {
         </div>
         <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
-  <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
+  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
   {/* Default value */}
   <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
@@ -118,7 +118,7 @@ const Feature2 = () => {
   </div>
         </div><div className="bg-[#171923] p-[40px] h-[477px] rounded-3xl border border-[#2D3748] max-w-[370px]">
   {/* Image container with overflow-hidden */}
-  <div className="bg-gray-800 overflow-hidden w-[288px] rounded-3xl group">
+  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
   {/* Default value */}
   <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>

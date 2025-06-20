@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
  const Hero = () => {
 
 
-    return (<><div className=" bg-no-repeat bg-cover w-[1520px] bg-center flex flex-col items-center mb-[0px]"
+    return (<><div className=" bg-no-repeat bg-cover max-w-[1520px] mx-auto bg-center flex flex-col items-center mb-[0px]"
             style={{ backgroundImage: `url(${heroImg})`,marginTop:"200px", height:"440px"}}>
 
         {/* Ai button */}

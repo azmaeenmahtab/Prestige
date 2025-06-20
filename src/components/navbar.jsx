@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faRotate } from '@fortawesome/free-solid-svg-icons';
+import logo from '../assets/logo-removebg-preview.png'
 
 const Navbar = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
         {/* Left: Logo */}
         <div className="flex gap-[4px] items-center">
           <img
-            src="../src/assets/logo-removebg-preview.png"
+            src={logo}
             className="w-[22px] h-[20px] mb-[4px]"
             alt=""
           />

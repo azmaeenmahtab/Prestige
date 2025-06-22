@@ -48,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    margin-bottom: 350px;
   }
 
   .smDashboardImg1150 {
@@ -82,5 +83,20 @@ body {
 
 
 
+
+}
+
+@media (max-width: 1230px) {
+
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .reviewDescriptionPadding {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 }

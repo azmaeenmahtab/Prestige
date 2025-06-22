@@ -4,7 +4,7 @@ const Review = () => {
   return (
     <div>
       {/* text header top part */}
-      <div className="text-center mb-[80px] max-w-[720px] mx-auto flex flex-col items-center">
+      <div className="text-center mb-[80px] max-w-[780px] mx-auto flex flex-col items-center">
         <div className="flex justify-center mb-6 items-center gap-[5px] border border-teal-400/60 w-[140px] rounded-full px-[5px] py-[3px] bg-teal-400/10 text-teal-400">
           <svg
             stroke="currentColor"
@@ -24,7 +24,7 @@ const Review = () => {
         <h3 className="text-5xl font-bold mb-4 tracking-wider text-white">
           What are people saying
         </h3>
-        <p className="text-gray-400 text-[18px] w-[780px]">
+        <p className="text-gray-400 text-[18px] max-w-[780px] reviewDescriptionPadding">
           Our customers continue to be the core of our business and their feedback vividly illustrates the success of our efforts.
         </p>
       </div>

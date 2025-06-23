@@ -40,7 +40,7 @@ const Pricing = () => {
       </div>
 
       {/* double button container*/}
-      <div className="max-w-[198px] mb-[80px] mx-auto bg-[#171923] border border-[#2D3748] rounded-[32px] p-1 flex flex-wrap items-center justify-center gap-2">
+      <div className="max-w-[198px] mb-[80px] mx-auto bg-[#171923] border border-[#2D3748] rounded-[32px] p-1 flex flex-wrap items-center justify-center gap-2 ">
           <div onClick={() => setActive("monthly")} className={`flex gap-2 items-center justify-center w-[90px] h-[40px] rounded-[32px] px-4 py-2 cursor-pointer transition-all duration-300 ${active === "monthly" ? "bg-gray-700 text-white" : "text-gray-400"}`}>
             <h4>Monthly</h4>
           </div>
@@ -52,7 +52,7 @@ const Pricing = () => {
         </div>
 
         {/* pricing plan card container */}
-        <div className="max-w-[1215px] mx-auto flex gap-8 px-5">
+        <div className="max-w-[1215px] mx-auto grid grid-cols-3 gap-8 px-5 pricingCard1000px">
             {/* first card */}
             <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-[#171923] border border-[#2D3748]/80 rounded-3xl">
                 <h3 className="text-3xl text-center">Starter</h3>

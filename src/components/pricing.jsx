@@ -34,7 +34,7 @@ const Pricing = () => {
         <h3 className="text-5xl font-bold mb-4 tracking-wider text-white">
         Supercharge your growth
         </h3>
-        <p className="text-gray-400 text-[18px] w-[790px]">
+        <p className="text-gray-400 text-[18px] px-2.5 max-w-[790px]">
         Whether you're a small startup, a growing mid-sized business, or a large enterprise, we have plans tailored to your specific demands.
         </p>
       </div>
@@ -140,7 +140,7 @@ const Pricing = () => {
                 </div>
             </div>
             {/* third card */}
-            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-[#171923] border border-[#2D3748]/80 rounded-3xl">
+            <div className="max-w-[370px]  text-white px-[37px] pt-[72px] bg-[#171923] border border-[#2D3748]/80 rounded-3xl pricingLastCardMargin1000px">
                 <h3 className="text-3xl text-center">Starter</h3>
 
                 <p className="text-[#718096] mt-5 max-w-[295px]">For driven individuals who want to start with essential features and resources to kickstart your journey.</p>

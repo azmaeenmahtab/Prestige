@@ -67,14 +67,14 @@ const SpeedFeature = () => {
         <h3 className="text-5xl font-bold mb-4 tracking-wider text-white">
           Speed up your workflow
         </h3>
-        <p className="text-gray-400 text-[18px] w-[750px]">
+        <p className="text-gray-400 text-[18px] max-w-[750px]">
           We are excited to present our stunning solutions designed to address your
           unique needs and provide a seamless user experience.
         </p>
       </div>
 
       {/* animation part main container */}
-      <div className="max-w-[1100px] min-h-[499px] relative mx-auto flex justify-between items-center">
+      <div className="max-w-[1100px] min-h-[499px] relative mx-auto flex justify-between items-center speedContent1050px">
         {/* text container */}
         <div className="max-w-[410px] pl-3">
           {items.map((item, index) => (

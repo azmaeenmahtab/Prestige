@@ -119,3 +119,14 @@ body {
 
 
 }
+
+@media (max-width: 1050px) {
+
+  .speedContent1050px {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+  }
+}

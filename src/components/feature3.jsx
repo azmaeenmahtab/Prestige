@@ -70,8 +70,10 @@ export default function Feature3() {
         <div className="text-center mt-[90px] text-gray-300">
           {active === "ai" && (
             <>
-              <div className="max-w-[890px] mx-auto flex flex-col md:flex-row justify-between gap-8">
-                <div className="text-left max-w-[450px] pt-5">
+              <div className="max-w-[890px] mx-auto flex flex-col md:flex-row justify-between gap-8 animateBtnContent1000">
+                <div className="text-left max-w-[450px] pt-5 animateBtnTextContentWidth1000 animateBtnText1000">
+
+                  <div>
                   <div className="flex items-center gap-4 text-teal-400">
                     <div className="flex items-center justify-center  w-12 h-12 border border-teal-400/30 rounded-2xl bg-teal-400/20">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" className="w-[24px] h-[24px]"><path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"></path></svg>
@@ -80,8 +82,10 @@ export default function Feature3() {
                   </div>
                   <h3 className="text-[32px] font-semibold text-white my-3.5 max-w-[370px]">Your new ultimate productivity companion</h3>
                   <p className=" text-gray-400">Designed to seamlessly integrate into your personal and professional life, our AI Assistant is here to revolutionize the way you accomplish tasks.</p>
-                    <div className="flex justify-center items-center">
-                  <button className="mt-[50px] mx-auto text-white bg-[#171923] rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all">
+                  </div>
+
+                    <div className="flex justify-center items-center w-[155px]">
+                  <button className="mt-[50px] mx-auto text-white bg-[#171923] rounded-full px-6 py-4 border border-gray-400/40 cursor-pointer hover:bg-gray-200/15 transition-all w-[155px]">
                     Learn more
                     <FontAwesomeIcon icon={faAngleRight} className="ml-2 text-white" />
                   </button>

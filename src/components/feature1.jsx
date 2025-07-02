@@ -24,7 +24,7 @@ const Feature1 = () => {
       </div>
 
       {/* Card container */}
-      <div className="grid grid-cols-3 gap-8 max-w-[1280px] mx-auto px-[30px]">
+      <div className="grid grid-cols-3 gap-8 max-w-[1280px] mx-auto px-[30px] dataTrackCard1200 dataTrackCard850">
         {/* Example card */}
         <div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
         <div>
@@ -39,7 +39,7 @@ const Feature1 = () => {
             </svg>
         </div>
           <h5 className=" text-[16px] font-semibold mb-[10px] pt-[10px]">Data Tracking</h5>
-          <p className=" text-[16px] text-gray-400 max-w-[300px]">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
+          <p className=" text-[16px] text-gray-400 max-w-[300px] dataTrackCardText850 dataTrackCardText1200">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
         </div>
         <div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
         <div>
@@ -54,8 +54,9 @@ const Feature1 = () => {
             </svg>
         </div>
           <h5 className=" text-[16px] font-semibold mb-[10px] pt-[10px]">Data Tracking</h5>
-          <p className=" text-[16px] text-gray-400 max-w-[300px]">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
-        </div><div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
+          <p className=" text-[16px] text-gray-400 max-w-[300px] dataTrackCardText850 dataTrackCardText1200">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
+        </div>
+        <div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
         <div>
             <svg 
             stroke="currentColor" fill="currentColor" stroke-width="0" 
@@ -68,8 +69,9 @@ const Feature1 = () => {
             </svg>
         </div>
           <h5 className=" text-[16px] font-semibold mb-[10px] pt-[10px]">Data Tracking</h5>
-          <p className=" text-[16px] text-gray-400 max-w-[300px]">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
-        </div><div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
+          <p className=" text-[16px] text-gray-400 max-w-[300px] dataTrackCardText850 dataTrackCardText1200">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
+        </div>
+        <div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
         <div>
             <svg 
             stroke="currentColor" fill="currentColor" stroke-width="0" 
@@ -82,8 +84,9 @@ const Feature1 = () => {
             </svg>
         </div>
           <h5 className=" text-[16px] font-semibold mb-[10px] pt-[10px]">Data Tracking</h5>
-          <p className=" text-[16px] text-gray-400 max-w-[300px]">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
-        </div><div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
+          <p className=" text-[16px] text-gray-400 max-w-[300px] dataTrackCardText850 dataTrackCardText1200">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
+        </div>
+        <div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
         <div>
             <svg 
             stroke="currentColor" fill="currentColor" stroke-width="0" 
@@ -96,8 +99,9 @@ const Feature1 = () => {
             </svg>
         </div>
           <h5 className=" text-[16px] font-semibold mb-[10px] pt-[10px]">Data Tracking</h5>
-          <p className=" text-[16px] text-gray-400 max-w-[300px]">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
-        </div><div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
+          <p className=" text-[16px] text-gray-400 max-w-[300px] dataTrackCardText850 dataTrackCardText1200">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
+        </div>
+        <div className="p-[40px] bg-[#171923] rounded-2xl shadow-lg border border-gray-500/30">
         <div>
             <svg 
             stroke="currentColor" fill="currentColor" stroke-width="0" 
@@ -110,7 +114,7 @@ const Feature1 = () => {
             </svg>
         </div>
           <h5 className=" text-[16px] font-semibold mb-[10px] pt-[10px]">Data Tracking</h5>
-          <p className=" text-[16px] text-gray-400 max-w-[300px]">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
+          <p className=" text-[16px] text-gray-400 max-w-[300px] dataTrackCardText850 dataTrackCardText1200">Built-in analytics and reporting capabilities help businesses gather insights, make data-driven decisions.</p>
         </div>
          
 

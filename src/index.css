@@ -328,4 +328,30 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .navBarWidth850 {
+    max-width: 600px;
+  }
+
+  .dataTrackCard850 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+
+  .dataTrackCardText850 {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 851px) {
+  .dataTrackCard1200 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
+
+  .dataTrackCardText1200 {
+    max-width: 650px;
+  }
 }

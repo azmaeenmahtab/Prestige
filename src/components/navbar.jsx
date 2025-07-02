@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isDropDownOpenProducts, setIsDropDownOpenProducts] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  
 
   // Hide/show navbar on scroll
   useEffect(() => {
@@ -160,7 +161,7 @@ const Navbar = () => {
       </div>
 
       {/* Optional separator line */}
-      <div className="w-screen border-t-[1px] border-gray-500/40"></div>
+      <div className="  border-t-[1px] border-gray-500/40"></div>
       
     </div>
     

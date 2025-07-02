@@ -20,14 +20,14 @@ const Feature2 = () => {
           <span>Feature</span>
         </div>
         <h3 className="text-5xl font-bold mb-4 tracking-wider ">And many other features</h3>
-        <p className="text-gray-400 text-[18px] w-[750px]">
+        <p className="text-gray-400 text-[18px] max-w-[750px]">
         We take immense pride in presenting you with a comprehensive array of powerful tools and capabilities that are designed to elevate your experience and help you achieve more.        </p>
       </div>
 
       {/* Card container */}
-      <div className="grid grid-cols-3 gap-5 max-w-[1280px] px-[30px] mx-auto space-y-4" >
+      <div className="grid grid-cols-3 gap-5 max-w-[1280px] px-[30px] mx-auto space-y-4 graphCards1050 graphCards850 graphCardsCont900" >
         {/* col span 2 card */}
-        <div className="bg-[#171923] p-[40px] border border-[#2D3748] rounded-3xl max-w-[790px] col-span-2">
+        <div className="bg-[#171923] p-[40px] border border-[#2D3748] rounded-3xl max-w-[790px] col-span-2 graphDash1050">
             <div className="bg-gray-800 p-[40px] rounded-[24px] pb-0 overflow-hidden h-[300px]">
                 <img src={DashboardPic} alt="" />
             </div>
@@ -39,7 +39,62 @@ const Feature2 = () => {
 
         </div>
         {/* small card */}
-        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+
+        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px] smallCardMargin1050">
+  {/* Image container with overflow-hidden */}
+  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
+    <div className="p-5 text-[14px] text-teal-400 ">
+  {/* Default value */}
+  <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
+  {/* Hover value */}
+  <h6 className="absolute opacity-0 transition-opacity group-hover:opacity-100">21.22%</h6>
+</div>
+    <div className="relative w-[500px] h-[260px] transition-transform duration-700 ease-in-out group-hover:-translate-x-[212px]">
+      <img
+        src={AnalyticPic}
+        alt="Analytics"
+        className="w-full object-cover"
+      />
+    </div>
+  </div>
+  {/* Text below image */}
+  <div className="mt-[20px]">
+    <h4 className="text-[18px] font-semibold">Simple analytics</h4>
+    <p className="text-gray-400">
+      Make informed decisions backed by data through our analytics tools.
+    </p>
+  </div>
+        </div>
+
+
+        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px] smallCardMargin1050">
+  {/* Image container with overflow-hidden */}
+  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
+    <div className="p-5 text-[14px] text-teal-400 ">
+  {/* Default value */}
+  <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
+  {/* Hover value */}
+  <h6 className="absolute opacity-0 transition-opacity group-hover:opacity-100">21.22%</h6>
+</div>
+    <div className="relative w-[500px] h-[260px] transition-transform duration-700 ease-in-out group-hover:-translate-x-[212px]">
+      <img
+        src={AnalyticPic}
+        alt="Analytics"
+        className="w-full object-cover"
+      />
+    </div>
+  </div>
+  {/* Text below image */}
+  <div className="mt-[20px]">
+    <h4 className="text-[18px] font-semibold">Simple analytics</h4>
+    <p className="text-gray-400">
+      Make informed decisions backed by data through our analytics tools.
+    </p>
+  </div>
+        </div>
+
+
+        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px] smallCardMargin1050">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -65,58 +120,9 @@ const Feature2 = () => {
     </p>
   </div>
         </div>
-        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
-  {/* Image container with overflow-hidden */}
-  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
-    <div className="p-5 text-[14px] text-teal-400 ">
-  {/* Default value */}
-  <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
-  {/* Hover value */}
-  <h6 className="absolute opacity-0 transition-opacity group-hover:opacity-100">21.22%</h6>
-</div>
-    <div className="relative w-[500px] h-[260px] transition-transform duration-700 ease-in-out group-hover:-translate-x-[212px]">
-      <img
-        src={AnalyticPic}
-        alt="Analytics"
-        className="w-full object-cover"
-      />
-    </div>
-  </div>
-
-  {/* Text below image */}
-  <div className="mt-[20px]">
-    <h4 className="text-[18px] font-semibold">Simple analytics</h4>
-    <p className="text-gray-400">
-      Make informed decisions backed by data through our analytics tools.
-    </p>
-  </div>
-        </div>
-        <div className="bg-[#171923] p-[40px] rounded-3xl border border-[#2D3748] max-w-[370px]">
-  {/* Image container with overflow-hidden */}
-  <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
-    <div className="p-5 text-[14px] text-teal-400 ">
-  {/* Default value */}
-  <h6 className="absolute transition-opacity group-hover:opacity-0">14.21%</h6>
-  {/* Hover value */}
-  <h6 className="absolute opacity-0 transition-opacity group-hover:opacity-100">21.22%</h6>
-</div>
-    <div className="relative w-[500px] h-[260px] transition-transform duration-700 ease-in-out group-hover:-translate-x-[212px]">
-      <img
-        src={AnalyticPic}
-        alt="Analytics"
-        className="w-full object-cover"
-      />
-    </div>
-  </div>
-
-  {/* Text below image */}
-  <div className="mt-[20px]">
-    <h4 className="text-[18px] font-semibold">Simple analytics</h4>
-    <p className="text-gray-400">
-      Make informed decisions backed by data through our analytics tools.
-    </p>
-  </div>
-        </div><div className="bg-[#171923] p-[40px] h-[477px] rounded-3xl border border-[#2D3748] max-w-[370px]">
+        
+        
+        <div className="bg-[#171923] p-[40px] h-[477px] rounded-3xl border border-[#2D3748] max-w-[370px] smallCardMargin1050">
   {/* Image container with overflow-hidden */}
   <div className="bg-gray-800 overflow-hidden max-w-[288px] rounded-3xl group">
     <div className="p-5 text-[14px] text-teal-400 ">
@@ -142,13 +148,6 @@ const Feature2 = () => {
     </p>
   </div>
         </div>
-
-
-{/* <div className="p-5 text-[14px] text-teal-400">
-                    <h6>14.21%</h6>
-                </div> */}
-
-
         
       </div>
     </div>

@@ -134,6 +134,30 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
+
+  /* .graphCards1050 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 850px;
+    justify-items: center;
+    /* ← this will horizontally center each card */
+  /* } */
+
+
+  /* .graphDash1050 {
+    grid-column: span 2;
+    /* now your “Dashboard” card really spans two columns */
+  /* max-width: 850px;
+    justify-self: center; */
+  /* }  */
+
+
+  /* .smallCardMargin1050 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
+  } */
+
 }
 
 @media (max-width: 1249px) and (min-width: 950px) {
@@ -224,10 +248,13 @@ body {
   }
 
   .animateBtnText1000 {
-
     display: flex;
     gap: 100px;
   }
+
+  /* ---- */
+
+
 
 }
 
@@ -258,3 +285,47 @@ body {
 
 
 @media (max-width: 1000px) {}
+
+@media (max-width: 900px) {
+
+  .graphCardsCont900 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 851px) {
+  .graphCards1050 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 850px;
+    justify-items: center;
+    /* ← this will horizontally center each card */
+  }
+
+
+  .graphDash1050 {
+    grid-column: span 2;
+    /* now your “Dashboard” card really spans two columns */
+    max-width: 850px;
+    justify-self: center;
+  }
+
+
+  .smallCardMargin1050 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 850px) {
+  .graphCards850 {
+    display: flex;
+    /* grid-template-columns: 1fr !important;
+    max-width: 100% !important; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

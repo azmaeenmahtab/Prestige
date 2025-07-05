@@ -8,7 +8,8 @@ const Navbar = () => {
   const [isDropDownOpenProducts, setIsDropDownOpenProducts] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
 
   // Hide/show navbar on scroll
   useEffect(() => {
@@ -42,8 +43,9 @@ const Navbar = () => {
           <p className="text-white font-medium text-[16px]">Prestige</p>
         </div>
 
+        
         {/* Center: Links */}
-        <div className="flex gap-[20px] items-center justify-center">
+        <div className="hidden md:flex gap-[20px] items-center justify-center">
           {/* Products dropdown */}
           <div
             className="relative"
@@ -57,7 +59,7 @@ const Navbar = () => {
               Product
             </a>
             {isDropDownOpenProducts && (
-              <div className="absolute w-[370px] bg-[#1a202c] p-6 py-5 rounded-[8px] top-[25px] left-0 z-50">
+              <div className="absolute md:w-[370px] bg-[#1a202c] p-6 py-5 rounded-[8px] top-[25px] left-0 z-50">
                 <ul className="space-y-4">
                   {Array.from({ length: 3 }).map((_, i) => (
                     <li
@@ -65,16 +67,16 @@ const Navbar = () => {
                       className="flex gap-4 items-center group cursor-pointer"
                     >
                       <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 448 512"
-  className="w-[34px] p-[10px] bg-gray-600 rounded-[5px] border border-transparent group-hover:bg-teal-400/30 group-hover:border-teal-400"
->
-  <path
-    fill="currentColor"
-    className="text-[#9b9da1] group-hover:text-white"
-    d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"
-/>
-</svg>
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      className="w-[34px] p-[10px] bg-gray-600 rounded-[5px] border border-transparent group-hover:bg-teal-400/30 group-hover:border-teal-400"
+                      >
+                      <path
+                      fill="currentColor"
+                      className="text-[#9b9da1] group-hover:text-white"
+                      d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"
+                    />
+                    </svg>
 
                       <div className="text-[#718096]">
                         <h3 className="text-[16px] group-hover:text-teal-400">
@@ -91,7 +93,7 @@ const Navbar = () => {
 
           {/* Pages dropdown */}
           <div
-            className="flex gap-2 items-center justify-center cursor-pointer relative group"
+            className="flex  gap-2 items-center justify-center cursor-pointer relative group"
             onMouseEnter={() => setIsDropDownOpen(true)}
             onMouseLeave={() => setIsDropDownOpen(false)}
           >
@@ -108,7 +110,7 @@ const Navbar = () => {
               <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
             </svg>
             {isDropDownOpen && (
-              <div className="absolute z-50 flex gap-[100px] w-[550px] bg-[#1a202c] p-[40px] rounded-[8px] top-[25px] left-0">
+              <div className="absolute z-50 flex  md:gap-[100px] max-w-[550px] bg-[#1a202c] p-[40px] rounded-[8px] top-[25px] left-0">
                 <div>
                   <ul className="space-y-4">
                     <li className="text-white font-semibold">Product</li>
@@ -152,16 +154,59 @@ const Navbar = () => {
         </div>
 
         {/* Right: Buttons */}
-        <div className="flex gap-[16px] pr-[8px]">
+        <div className="hidden md:flex gap-[16px] pr-[8px]">
           <button className="text-white font-semibold text-[16px]">Log In</button>
           <button className="text-white cursor-pointer font-semibold text-[16px] border-gray-500/40 border px-[14px] py-[8px] rounded-[40px] hover:bg-gray-800/80">
             Get Started
           </button>
         </div>
+
+        {/* hamburger  */}
+        <div className="md:hidden pr-[8px]">
+          <button onClick={() => setIsMobileMenuOpen(true)} className="text-white">
+            <div className="bg-white text-black w-[40px] h-[40px] rounded-[10px] flex items-center justify-center">
+              <svg className="w-[20px] h-[20px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+            </div>
+          </button>
+        </div>
+
       </div>
 
       {/* Optional separator line */}
       <div className="  border-t-[1px] border-gray-500/40"></div>
+
+      {/* Mobile Fullscreen Dropdown */}
+      {isMobileMenuOpen && (
+        <div className="fixed top-0 left-0 w-full h-full bg-[#101010] z-[100] flex flex-col pt-4">
+          <div className="flex justify-between items-center mb-[26px] px-6">
+            <div className="flex gap-[4px] items-center">
+              <img src={logo} className="w-[22px] h-[20px] mb-[4px]" alt="Logo" />
+              <p className="text-white font-medium text-[16px]">Prestige</p>
+            </div>
+            <button onClick={() => setIsMobileMenuOpen(false)} className="bg-white text-black w-[40px] h-[40px] rounded-[10px] flex items-center justify-center">
+              <svg className="w-[20px] h-[20px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12"/>
+              </svg>
+            </button>
+          </div>
+          <div className='flex flex-col py-4 gap-10 bg-black'>
+          <div className="flex flex-col gap-6 text-[#718096] text-[20px] font-semibold bg-black  px-6">
+            <a href="#" className="hover:text-white">Integrations</a>
+            <a href="#" className="hover:text-white">Blog</a>
+            <a href="#" className="hover:text-white">Pricing</a>
+          </div>
+
+          <div className="mt-auto flex flex-col items-center gap-3 pb-6 bg-black px-6">
+            <button className="text-white font-semibold text-[16px]">Log In</button>
+            <button className="text-white cursor-pointer font-semibold text-[16px] border-gray-500/40 border px-[14px] py-[8px] rounded-[40px] hover:bg-gray-800/80">
+              Get Started
+            </button>
+          </div>
+          </div>
+        </div>
+      )}
       
     </div>
     

@@ -2,7 +2,7 @@
 
 
 body {
-  margin: 0;
+
 
   background-color: rgba(0, 0, 0, 0.937);
   font-family: "DM Sans", sans-serif;
@@ -353,5 +353,6 @@ body {
 
   .dataTrackCardText1200 {
     max-width: 650px;
+
   }
 }
